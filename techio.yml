@@ -1,7 +1,7 @@
 title: Kotlin Workshop
 plan:
-- title: Welcome
-  statement: markdowns/welcome.md
+  - title: Welcome
+    statement: markdowns/welcome.md
   - title: Hello, Kotlin
     statement: markdowns/chapter01.md
 projects:
