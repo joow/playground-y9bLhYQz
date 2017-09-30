@@ -1,9 +1,9 @@
 title: Kotlin Tour
 plan:
-  - title: Welcome
-    statement: markdowns/welcome.md
   - title: Hello, Kotlin
     statement: markdowns/chapter01.md
+  - title: Variables
+    statement: markdowns/chapter02.md
 projects:
   java:
     root: /kotlin-project
