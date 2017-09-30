@@ -65,4 +65,4 @@ Raw strings can contain newlines and other characters :
 
 Using `$` or `${...}` in a string allows you to reference variables and call functions.
 
-@[Define the hello function which should return Hello, <NAME>]({"stubs": ["src/Chapter023.kt"], "command": "Chapter02Test#stringTemplate"})
+@[Define the hello function which should return Hello, <NAME>]({"stubs": ["src/chapter2/Chapter023.kt"], "command": "chapter2/Chapter02Test#stringTemplate"})
