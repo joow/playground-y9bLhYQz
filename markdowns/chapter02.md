@@ -29,7 +29,7 @@ d += 1     // What is the answer ?
 
 ## Exercice
 
-@[Fix the following code]({"stubs": ["src/Chapter02.kt"], "command": "Chapter02Test#`answer should be equals to 42`"})
+@[Fix the following code]({"stubs": ["src/Chapter021.kt"], "command": "Chapter02Test#answer"})
 
 ## Constants
 
@@ -40,3 +40,29 @@ const val CONST = 42
 ```
 
 *Only usable for top-level or `object` member and `String` "primitive" types*
+
+## Strings (https://kotlinlang.org/docs/reference/basic-types.html#strings)
+
+### Type
+
+As in Java `String`s are immutables. They are also iterables.
+
+Kotlin has two types of strings :
+
+1. Literals, using `"`
+2. Raw, using `"""`
+
+Raw strings can contain newlines and other characters :
+
+>Tell me and I forget.
+>Teach me and I remember.
+>Involve me and I learn.
+>(Benjamin Franklin)
+
+@[Define the previous string using a raw string]({"stubs": ["src/Chapter022.kt"], "command": "Chapter02Test#rawString})
+
+### Templates
+
+Using `$` or `${...}` in a string allows you to reference variables and call functions.
+
+@[Define the hello function which should return Hello, <NAME>]({"stubs": ["src/Chapter023.kt"], "command": "Chapter02Test#stringTemplate})
