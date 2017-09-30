@@ -4,6 +4,8 @@ plan:
     statement: markdowns/chapter01.md
   - title: Variables
     statement: markdowns/chapter02.md
+  - title: Functions
+    statement: markdowns/chapter03.md
 projects:
   java:
     root: /kotlin-project
