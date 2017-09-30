@@ -6,6 +6,8 @@ plan:
     statement: markdowns/chapter02.md
   - title: Functions
     statement: markdowns/chapter03.md
+  - title: Control structures
+    statement: markdowns/chapter04.md
 projects:
   java:
     root: /kotlin-project
