@@ -10,47 +10,47 @@ class Chapter03Test {
     val systemOutRule: SystemOutRule = SystemOutRule().enableLog()
 
     @Test
-    fun `add function should add two Ints`() {
+    fun add() {
         assertThat(add(21, 21)).isEqualTo(42)
     }
 
     @Test
-    fun `print the answer to the question`() {
+    fun print() {
         printTheAnswer()
         assertThat(systemOutRule.log).startsWith("42")
     }
 
     @Test
-    fun `strEq should allow to ignore case`() {
+    fun strEq() {
         assertThat(strEq("Hello, Kotlin", "Hello, kotlin")).isFalse()
         assertThat(strEq("Hello, Kotlin", "Hello, kotlin", true)).isTrue()
     }
 
     @Test
-    fun `isEven use isMultiple local function`() {
+    fun isEven() {
         assertThat(isEven(1)).isFalse()
         assertThat(isEven(2)).isTrue()
     }
 
     @Test
-    fun `use inc infix operation to increment an Int`() {
+    fun inc() {
         assertThat(1 inc 1).isEqualTo(2)
     }
 
     @Test
-    fun `sum should add a variable number of Ints`() {
+    fun sum() {
         assertThat(sum(1)).isEqualTo(1)
         assertThat(sum(1, 2)).isEqualTo(3)
         assertThat(sum(1, 2, 3)).isEqualTo(6)
     }
 
     @Test
-    fun `add two points with + operator`() {
+    fun plus() {
         assertThat(Point(3, 5) + Point(5, 3)).isEqualTo(Point(8, 8))
     }
 
     @Test
-    fun `count character frequency using tail recursive function`() {
+    fun freq() {
         assertThat(freq("Hello, Kotlin", 'o')).isEqualTo(2)
     }
 }
