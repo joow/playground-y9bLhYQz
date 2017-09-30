@@ -54,9 +54,9 @@ Kotlin has two types of strings :
 
 Raw strings can contain newlines and other characters :
 
->Tell me and I forget.
->Teach me and I remember.
->Involve me and I learn.
+>Tell me and I forget.  
+>Teach me and I remember.  
+>Involve me and I learn.  
 >(Benjamin Franklin)
 
 @[Define the previous string using a raw string]({"stubs": ["src/Chapter022.kt"], "command": "Chapter02Test#rawString"})
