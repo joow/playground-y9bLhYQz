@@ -2,7 +2,7 @@
 
 Kotlin makes programming fun so naturally the `fun` keyword is used to declare a function 😀.
 
-@[Declare a function called `add` which adds two Ints]({"stubs": ["src/Chapter03.kt"], "command": "Chapter03Test#`add function should add two Ints`"})
+@[Declare a function named add which adds two Ints]({"stubs": ["src/Chapter03.kt"], "command": "Chapter03Test#`` `add function should add two Ints` ``"})
 
 If we only have one return statement we can transform the function to use only an expression.
 
@@ -11,7 +11,6 @@ If we only have one return statement we can transform the function to use only a
 We could go one step further and remove the return type as the compiler will be nice enough to infer it for us.
 
 @[Drop as much as you can]({"stubs": ["src/Chapter03.kt"], "command": "Chapter03Test#`add function should add two Ints`"})
-  fun add(a: Int, b: Int): Int = a + b
 
 **Note**: inferring the return type works only for single expression function, the compiler won't try to infer it for functions with block body so overuse single expression function 😁.
 
@@ -61,7 +60,7 @@ print(1 inc 1) // 2
 
 As in Java we might need to pass a variable number of arguments. In this case we need to prefix the argument by the keyword `vararg` :
 
-@[Declare a function sum that can some an infinite number of Ints]({"stubs": ["src/Chapter03.kt"], "command": "Chapter03Test#`sum should add a variable number of Ints`"})
+@[Declare a function sum that can sum an infinite number of Ints]({"stubs": ["src/Chapter03.kt"], "command": "Chapter03Test#`sum should add a variable number of Ints`"})
 
 ## Operator Overloading
 
