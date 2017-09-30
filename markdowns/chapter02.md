@@ -59,10 +59,10 @@ Raw strings can contain newlines and other characters :
 >Involve me and I learn.
 >(Benjamin Franklin)
 
-@[Define the previous string using a raw string]({"stubs": ["src/Chapter022.kt"], "command": "Chapter02Test#rawString})
+@[Define the previous string using a raw string]({"stubs": ["src/Chapter022.kt"], "command": "Chapter02Test#rawString"})
 
 ### Templates
 
 Using `$` or `${...}` in a string allows you to reference variables and call functions.
 
-@[Define the hello function which should return Hello, <NAME>]({"stubs": ["src/Chapter023.kt"], "command": "Chapter02Test#stringTemplate})
+@[Define the hello function which should return Hello, <NAME>]({"stubs": ["src/Chapter023.kt"], "command": "Chapter02Test#stringTemplate"})
