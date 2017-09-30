@@ -8,6 +8,8 @@ plan:
     statement: markdowns/chapter03.md
   - title: Control structures
     statement: markdowns/chapter04.md
+  - title: Interoperability
+    statement: markdowns/chapter05.md
 projects:
   java:
     root: /kotlin-project
