@@ -16,7 +16,7 @@ Kotlin doesn't have a `switch` keyword, it replaces it with a powerful `when` ex
 
 For loops are implemented as `foreach` loops, using `in` keyword :
 
-@[Iterate over the list of languages to print them]({"stubs": ["src/chapter4/Chapter043.kt"], "command": "chapter4/Chapter04Test#forin"})
+@[Iterate over the list of languages to print them]({"stubs": ["src/chapter04/Chapter043.kt"], "command": "chapter04/Chapter04Test#forin"})
 
 ### Ranges
 
@@ -24,4 +24,4 @@ Using `rangeTo` functions ranges can be defined for any comparable type.
 The `..` operator is used to define ranges, `in` and `!in` to check if a value is included in a range or to iterate over a range (for integral type).
 `downTo`, `step` and `until` can be used to revert the range, change the progression step or exclude the last value.
 
-@[Display the ten first numbers, a countdown from 10 to 0 and the ten first even numbers]({"stubs": ["src/chapter4/Chapter044.kt"], "command": "chapter4/Chapter04Test#ranges"})
+@[Display the ten first numbers, a countdown from 10 to 0 and the ten first even numbers]({"stubs": ["src/chapter04/Chapter044.kt"], "command": "chapter04/Chapter04Test#ranges"})
