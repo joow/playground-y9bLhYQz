@@ -4,13 +4,13 @@
 
 The classic `if` is revised, it is an expression :
 
-@[Declare an immutable string variable holding "head" or "tail" depending on the toss]({"stubs": ["src/chapter4/Chapter041.kt"], "command": "chapter4/Chapter04Test#headOrTail"})
+@[Declare an immutable string variable holding "head" or "tail" depending on the toss]({"stubs": ["src/chapter04/Chapter041.kt"], "command": "chapter04/Chapter04Test#headOrTail"})
 
 ## When
 
 Kotlin doesn't have a `switch` keyword, it replaces it with a powerful `when` expression, similar to pattern matching :
 
-@[Declare a function fizzbuzz solving the infamous algorithm]({"stubs": ["src/chapter4/Chapter042.kt"], "command": "chapter4/Chapter04Test#fizzbuzz"})
+@[Declare a function fizzbuzz solving the infamous algorithm]({"stubs": ["src/chapter04/Chapter042.kt"], "command": "chapter04/Chapter04Test#fizzbuzz"})
 
 ## For
 
