@@ -31,7 +31,7 @@ If the compiler can infer the signature you can leave out the signature :
 ints.filter { it > 0 }
 ```
 
-[Declare a function negate that takes a predicate and returns its opposite]({"stubs": ["stub/empty.kt"], "command": "Chapter08Test#negate"})
+@[Declare a function negate that takes a predicate and returns its opposite]({"stubs": ["stub/empty.kt"], "command": "Chapter08Test#negate"})
 
 ## Destructuring Lambdas
 
@@ -39,7 +39,7 @@ ints.filter { it > 0 }
 
 Since Kotlin 1.1 it is possible to destruture lambdas.
 
-[Given a map of countries and their capital, create a function capital printing for each entry "The capital of ... is ..."]({"stubs": ["src/chapter08/chapter081.kt"], "command": "Chapter08Test#capitals"})
+@[Given a map of countries and their capital, create a function capital printing for each entry "The capital of ... is ..."]({"stubs": ["src/chapter08/chapter081.kt"], "command": "Chapter08Test#capitals"})
 
 ## Collections
 
@@ -65,20 +65,20 @@ immutableMap.plus("4" to 4) // returns a new map
 
 ### Fun with numbers
 
-[Generate the ten first numbers and print them]({"stubs": ["stub/main.kt"], "command": "Chapter08Test#suit"})
+@[Generate the ten first numbers and print them]({"stubs": ["stub/main.kt"], "command": "Chapter08Test#suit"})
 
-[Generate the first ten powers of two and print them]({"stubs": ["stub/main.kt"], "command": "Chapter08Test#powersOf2"})
+@[Generate the first ten powers of two and print them]({"stubs": ["stub/main.kt"], "command": "Chapter08Test#powersOf2"})
 
-[Print the first power of 2 greater than 10000]({"stubs": ["stub/main.kt"], "command": "Chapter08Test#bigPowerOf2"})
+@[Print the first power of 2 greater than 10000]({"stubs": ["stub/main.kt"], "command": "Chapter08Test#bigPowerOf2"})
 
 ### Fun with data
 
-[Print the birth countries of the musicians, without duplicate]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08Test#birth"})
+@[Print the birth countries of the musicians, without duplicate]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08Test#birth"})
 
-[Generate a string containing the last names of the musicians, sorted in ascending order and separated by a comma]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08Test#lastNames"})
+@[Generate a string containing the last names of the musicians, sorted in ascending order and separated by a comma]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08Test#lastNames"})
 
-[Count the number of musicians having their last name containing the letter B, no matter the case]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08Test#countB"})
+@[Count the number of musicians having their last name containing the letter B, no matter the case]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08Test#countB"})
 
-[Print the list of death countries and the number of deceased musicians]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08Test#countD"})
+@[Print the list of death countries and the number of deceased musicians]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08Test#countD"})
 
-[Print the musicians ordered by their death age. Who was the youngest and who was the oldest ?]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08Test#age"})
+@[Print the musicians ordered by their death age. Who was the youngest and who was the oldest ?]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08Test#age"})
