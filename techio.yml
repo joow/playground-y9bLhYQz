@@ -14,6 +14,8 @@ plan:
     statement: markdowns/chapter06.md
   - title: Nullability
     statement: markdowns/chapter07.md
+  - title: Lambdas
+    statement: markdowns/chapter08.md
 projects:
   java:
     root: /kotlin-project
