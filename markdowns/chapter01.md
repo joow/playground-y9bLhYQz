@@ -1,3 +1,3 @@
 # Hello, Kotlin
 
-@[Let's start with a classical exemple !]({"stubs": ["src/chapter01/Chapter01.kt"], "command": "Chapter01Test#itShouldDisplayHelloWorld"})
+@[Let's start with a classical exemple !]({"stubs": ["stub/main.kt"], "command": "Chapter01Test#itShouldDisplayHelloWorld"})
