@@ -1,0 +1,1 @@
+fun <T> negate(f: (T) -> Boolean): (T) -> Boolean = { t -> !f.invoke(t) }
