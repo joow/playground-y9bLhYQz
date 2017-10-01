@@ -1,0 +1,1 @@
+fun String.tail() = substring(1) // this is not mandatory

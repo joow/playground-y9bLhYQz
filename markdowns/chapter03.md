@@ -1,8 +1,10 @@
 # Functions
 
-Kotlin makes programming fun so naturally the `fun` keyword is used to declare a function 😀.
+*https://kotlinlang.org/docs/reference/functions.html#function-declarations*
 
-@[Declare a function named add which adds two Ints]({"stubs": ["src/chapter03/Chapter031.kt"], "command": "Chapter03Test#add"})
+Kotlin makes programming fun again so naturally the `fun` keyword is used to declare a function 😀.
+
+@[Declare a function add which adds two Ints]({"stubs": ["src/chapter03/Chapter031.kt"], "command": "Chapter03Test#add"})
 
 If we only have one return statement we can transform the function to use only an expression.
 
@@ -20,6 +22,8 @@ If a function doesn't return anything we use the `Unit` type :
 
 ## Named arguments
 
+*https://kotlinlang.org/docs/reference/functions.html#named-arguments*
+
 When calling a function we can change arguments order by naming them in the call :
 
 ```kotlin
@@ -30,24 +34,56 @@ print(sub(b = 1, a = 2))        // 1
 
 ## Default arguments
 
+*https://kotlinlang.org/docs/reference/functions.html#default-arguments*
+
 Never dreamt of assigning default values to some arguments instead of having to define multiple overloading functions ?
 Guess what ? You can 😀 :
 
 @[Declare a function strEq returning either two strings are the same or not, ignoring or not their case]({"stubs": ["src/chapter03/Chapter033.kt"], "command": "Chapter03Test#strEq"})
 
+> Tip : use `@JvmOverloads` to generate overloading methods for Java code.
+
 ## Local Functions
+
+*https://kotlinlang.org/docs/reference/functions.html#local-functions*
 
 You can declare local functions, having access to outer scope :
 
 @[Define a function checking if a number is even or not]({"stubs": ["src/chapter03/Chapter034.kt"], "command": "Chapter03Test#isEven"})
 
+## Extensions
+
+*https://kotlinlang.org/docs/reference/extensions.html*
+
+It is possible to extend existing classes with new functionalities, even existing JVM classes.  
+We just need to prefix the function name with the receiver type, followed by `.`. The receiver will be accessible as `this` in the function.
+
+@[Create a function tail returning the tail of a given string]({"stubs": ["stub/empty.kt"], "command": "Chapter03Test#infix})
+
+fun String.lastChar() =
+        this.get(this.length - 1)
+
+// 'this' can be omitted
+fun String.lastChar1() =
+        get(length - 1)
+
+fun test() {
+    // visible in completion
+    "abc".lastChar()
+}
+
+// Infix
+infix fun String.isEqual(value: String) = this == value
+
 ## Infix notation
 
-Using `infix` keyword and `extension functions` (we'll get to that later) we can use infix notation for some of our functions :
+Using `infix` keyword and `extension functions` we can use infix notation for some of our functions :
 
 @[Declare an infix function inc that can increment an Int]({"stubs": ["src/chapter03/Chapter035.kt"], "command": "Chapter03Test#inc"})
 
 ## Vararg
+
+*https://kotlinlang.org/docs/reference/functions.html#variable-number-of-arguments-varargs*
 
 As in Java we might need to pass a variable number of arguments. In this case we need to prefix the argument by the keyword `vararg` :
 
