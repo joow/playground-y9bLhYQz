@@ -77,6 +77,8 @@ infix fun String.isEqual(value: String) = this == value
 
 ## Infix notation
 
+*https://kotlinlang.org/docs/reference/functions.html#infix-notation*
+
 Using `infix` keyword and `extension functions` we can use infix notation for some of our functions :
 
 @[Declare an infix function inc that can increment an Int]({"stubs": ["src/chapter03/Chapter035.kt"], "command": "Chapter03Test#inc"})

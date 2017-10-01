@@ -1,5 +1,7 @@
 # Variables
 
+*https://kotlinlang.org/docs/reference/basic-syntax.html#defining-local-variables*
+
 ## Read-only variables
 
 Kotlin let you declare variables as immutable by using the `val` keyword :
@@ -41,9 +43,11 @@ const val CONST = 42
 
 *Only usable for top-level or `object` member and `String` "primitive" types*
 
-## Strings (https://kotlinlang.org/docs/reference/basic-types.html#strings)
+## Strings
 
 ### Type
+
+*https://kotlinlang.org/docs/reference/basic-types.html#strings*
 
 As in Java `String`s are immutables. They are also iterables.
 
@@ -62,6 +66,8 @@ Raw strings can contain newlines and other characters :
 @[Define the previous string using a raw string]({"stubs": ["src/chapter02/Chapter022.kt"], "command": "Chapter02Test#rawString"})
 
 ### Templates
+
+*https://kotlinlang.org/docs/reference/basic-types.html#string-templates*
 
 Using `$` or `${...}` in a string allows you to reference variables and call functions.
 

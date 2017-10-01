@@ -43,6 +43,8 @@ Since Kotlin 1.1 it is possible to destruture lambdas.
 
 ## Collections
 
+*https://kotlinlang.org/docs/reference/collections.html*
+
 Kotlin has immutable and mutable collections :
 
 ```kotlin
