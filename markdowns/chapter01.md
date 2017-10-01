@@ -4,4 +4,4 @@
 
 Kotlin is a consise and safe programming language, targetting the JVM, Android and JavaScript.
 
-@[Let's start with a classical exemple ! Print "Hello, Kotlin"]({"stubs": ["stub/main.kt"], "command": "Chapter01Test#itShouldDisplayHelloWorld"})
+@[Let's start with a classical exemple ! Print "Hello, Kotlin"]({"stubs": ["src/main.kt"], "command": "Chapter01Test#itShouldDisplayHelloWorld"})
