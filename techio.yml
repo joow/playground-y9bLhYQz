@@ -10,6 +10,8 @@ plan:
     statement: markdowns/chapter04.md
   - title: Interoperability
     statement: markdowns/chapter05.md
+  - title: Classes
+    statement: markdowns/chapter06.md
 projects:
   java:
     root: /kotlin-project
