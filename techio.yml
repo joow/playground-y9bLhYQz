@@ -12,6 +12,8 @@ plan:
     statement: markdowns/chapter05.md
   - title: Classes
     statement: markdowns/chapter06.md
+  - title: Nullability
+    statement: markdowns/chapter07.md
 projects:
   java:
     root: /kotlin-project
