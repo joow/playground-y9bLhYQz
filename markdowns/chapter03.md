@@ -58,7 +58,7 @@ You can declare local functions, having access to outer scope :
 It is possible to extend existing classes with new functionalities, even existing JVM classes.  
 We just need to prefix the function name with the receiver type, followed by `.`. The receiver will be accessible as `this` in the function.
 
-@[Create a function tail returning the tail of a given string]({"stubs": ["stub/empty.kt"], "command": "Chapter03Test#infix})
+@[Create a function tail returning the tail of a given string]({"stubs": ["stub/empty.kt"], "command": "Chapter03Test#infix"})
 
 fun String.lastChar() =
         this.get(this.length - 1)
