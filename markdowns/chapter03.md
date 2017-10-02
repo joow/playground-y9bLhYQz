@@ -60,28 +60,13 @@ We just need to prefix the function name with the receiver type, followed by `.`
 
 @[Create a function tail returning the tail of a given string]({"stubs": ["stub/empty.kt"], "command": "Chapter03Test#extension"})
 
-fun String.lastChar() =
-        this.get(this.length - 1)
-
-// 'this' can be omitted
-fun String.lastChar1() =
-        get(length - 1)
-
-fun test() {
-    // visible in completion
-    "abc".lastChar()
-}
-
-// Infix
-infix fun String.isEqual(value: String) = this == value
-
 ## Infix notation
 
 *https://kotlinlang.org/docs/reference/functions.html#infix-notation*
 
 Using `infix` keyword and `extension functions` we can use infix notation for some of our functions :
 
-@[Declare an infix function inc that can increment an Int]({"stubs": ["stub/empty.kt"], "command": "Chapter03Test#infix"})
+@[Declare an infix function inc that can increment an Int]({"stubs": ["src/infix.kt"], "command": "Chapter03Test#infix"})
 
 ## Vararg
 
@@ -89,18 +74,18 @@ Using `infix` keyword and `extension functions` we can use infix notation for so
 
 As in Java we might need to pass a variable number of arguments. In this case we need to prefix the argument by the keyword `vararg` :
 
-@[Declare a function sum that can sum an infinite number of Ints]({"stubs": ["src/chapter03/Chapter036.kt"], "command": "Chapter03Test#sum"})
+@[Declare a function sum that can sum an infinite number of Ints]({"stubs": ["src/vararg.kt"], "command": "Chapter03Test#sum"})
 
 ## Operator Overloading
 
 At last we can overload common operators using the `operator` keyword 😃 :
 
-@[Define a plus operator to add two Points  a function sum that can some an infinite number of Ints]({"stubs": ["src/chapter03/Chapter037.kt"], "command": "Chapter03Test#plus"})
+@[Define a plus operator to add two Points  a function sum that can some an infinite number of Ints]({"stubs": ["src/operator.kt"], "command": "Chapter03Test#plus"})
 
 ## Tail recursion
 
 A tail recursive function can be marked as such with the `tailrec` keyword.
 
-@[Define a freq tail recursive function counting the number of a character in a string]({"stubs": ["src/chapter03/Chapter038.kt"], "command": "Chapter03Test#freq"})
+@[Define a freq tail recursive function counting the number of a character in a string]({"stubs": ["src/tailrec.kt"], "command": "Chapter03Test#freq"})
 
 **Beware**: contrary to Scala the compiler won't raise an error if you incorrectly marked a function as tail recursive.
