@@ -63,7 +63,7 @@ Raw strings can contain newlines and other characters :
 >Involve me and I learn.  
 >(Benjamin Franklin)
 
-@[Define the previous string using a raw string]({"stubs": ["stub/chapter02/Chapter022.kt"], "command": "Chapter02Test#rawString"})
+@[Define the previous string using a raw string]({"stubs": ["stub/chapter02/raw.kt"], "command": "Chapter02Test#rawString"})
 
 ### Templates
 
