@@ -8,7 +8,7 @@ class Chapter02Test {
     }
 
     @Test
-    fun rawString() {
+    fun raw() {
         assertThat(quote).isEqualTo("""
             |Tell me and I forget.
             |Teach me and I remember.
@@ -18,7 +18,7 @@ class Chapter02Test {
     }
 
     @Test
-    fun stringTemplate() {
+    fun template() {
         assertThat(hello("kotlin")).isEqualTo("Hello, KOTLIN")
     }
 }

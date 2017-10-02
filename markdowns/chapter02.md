@@ -31,7 +31,7 @@ d += 1     // What is the answer ?
 
 ## Exercice
 
-@[Fix the following code]({"stubs": ["src/chapter02/Chapter021.kt"], "command": "Chapter02Test#answer"})
+@[Fix the following code]({"stubs": ["src/chapter02/answer.kt"], "command": "Chapter02Test#answer"})
 
 ## Constants
 
@@ -63,7 +63,7 @@ Raw strings can contain newlines and other characters :
 >Involve me and I learn.  
 >(Benjamin Franklin)
 
-@[Define the previous string using a raw string]({"stubs": ["stub/chapter02/raw.kt"], "command": "Chapter02Test#rawString"})
+@[Define the previous string using a raw string]({"stubs": ["src/chapter02/raw.kt"], "command": "Chapter02Test#raw"})
 
 ### Templates
 
@@ -71,4 +71,4 @@ Raw strings can contain newlines and other characters :
 
 Using `$` or `${...}` in a string allows you to reference variables and call functions.
 
-@[Define the hello function which should return Hello, <NAME>]({"stubs": ["src/chapter02/Chapter023.kt"], "command": "Chapter02Test#stringTemplate"})
+@[Define the hello function which should return Hello, <NAME>]({"stubs": ["src/chapter02/template.kt"], "command": "Chapter02Test#template"})
