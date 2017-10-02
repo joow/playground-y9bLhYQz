@@ -1,1 +1,1 @@
-fun String.tail() = TODO()
+fun String.tail(): Unit = TODO()

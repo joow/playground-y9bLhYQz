@@ -1,1 +1,1 @@
-infix fun Int.inc(n: Int) = TODO()
+infix fun Int.inc(n: Int): Unit = TODO()
