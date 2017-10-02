@@ -1,1 +1,1 @@
-val quote: String = TODO()
+val quote = ""

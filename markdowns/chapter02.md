@@ -13,7 +13,7 @@ val c: Int      // Initialization is deferred so we need to specify type
 c = 3
 ```
 
-**Warning** As in Java (`final`) or JavaScript (`const`), `val` makes only the reference be immutable, not the object being referenced itself :
+**Warning** : As in Java (`final`) or JavaScript (`const`), `val` makes only the reference be immutable, not the object being referenced itself :
 
 ```kotlin
 val languages = mutableListOf("Java", "JavaScript")
@@ -31,7 +31,7 @@ d += 1     // What is the answer ?
 
 ## Exercice
 
-@[Fix the following code]({"stubs": ["src/chapter02/Chapter021.kt"], "command": "chapter02/Chapter02Test#answer"})
+@[Fix the following code]({"stubs": ["src/chapter02/Chapter021.kt"], "command": "Chapter02Test#answer"})
 
 ## Constants
 
@@ -49,7 +49,7 @@ const val CONST = 42
 
 *https://kotlinlang.org/docs/reference/basic-types.html#strings*
 
-As in Java `String`s are immutables. They are also iterables.
+As in Java `String` are immutables. They are also iterables.
 
 Kotlin has two types of strings :
 
@@ -63,7 +63,7 @@ Raw strings can contain newlines and other characters :
 >Involve me and I learn.  
 >(Benjamin Franklin)
 
-@[Define the previous string using a raw string]({"stubs": ["src/chapter02/Chapter022.kt"], "command": "Chapter02Test#rawString"})
+@[Define the previous string using a raw string]({"stubs": ["stub/chapter02/Chapter022.kt"], "command": "Chapter02Test#rawString"})
 
 ### Templates
 
