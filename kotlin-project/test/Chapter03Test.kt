@@ -33,12 +33,12 @@ class Chapter03Test {
     }
 
     @Test
-    fun infix() {
+    fun extension() {
         assertThat("Hello, Kotlin".tail()).isEqualTo("ello, Kotlin")
     }
 
     @Test
-    fun inc() {
+    fun infix() {
         assertThat(1 inc 1).isEqualTo(2)
     }
 

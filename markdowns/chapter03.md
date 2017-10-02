@@ -4,21 +4,21 @@
 
 Kotlin makes programming fun again so naturally the `fun` keyword is used to declare a function 😀.
 
-@[Declare a function add which adds two Ints]({"stubs": ["src/chapter03/Chapter031.kt"], "command": "Chapter03Test#add"})
+@[Declare a function add which adds two Ints]({"stubs": ["src/add.kt"], "command": "Chapter03Test#add"})
 
 If we only have one return statement we can transform the function to use only an expression.
 
-@[Rewrite the previous code using a single expression]({"stubs": ["src/chapter03/Chapter031.kt"], "command": "Chapter03Test#add"})
+@[Rewrite the previous code using a single expression]({"stubs": ["src/add.kt"], "command": "Chapter03Test#add"})
 
 We could go one step further and remove the return type as the compiler will be nice enough to infer it for us.
 
-@[Drop as much as you can]({"stubs": ["src/chapter03/Chapter031.kt"], "command": "Chapter03Test#add"})
+@[Drop as much as you can]({"stubs": ["src/add.kt"], "command": "Chapter03Test#add"})
 
 **Note**: inferring the return type works only for single expression function, the compiler won't try to infer it for functions with block body so overuse single expression function 😁.
 
 If a function doesn't return anything we use the `Unit` type :
 
-@[Declare a function printing a meaningful sentence]({"stubs": ["src/chapter03/Chapter032.kt"], "command": "Chapter03Test#print"})
+@[Declare a function printing a meaningful sentence]({"stubs": ["src/print.kt"], "command": "Chapter03Test#print"})
 
 ## Named arguments
 
@@ -39,7 +39,7 @@ print(sub(b = 1, a = 2))        // 1
 Never dreamt of assigning default values to some arguments instead of having to define multiple overloading functions ?
 Guess what ? You can 😀 :
 
-@[Declare a function strEq returning either two strings are the same or not, ignoring or not their case]({"stubs": ["src/chapter03/Chapter033.kt"], "command": "Chapter03Test#strEq"})
+@[Declare a function strEq returning either two strings are the same or not, ignoring or not their case]({"stubs": ["src/strEq.kt"], "command": "Chapter03Test#strEq"})
 
 > Tip : use `@JvmOverloads` to generate overloading methods for Java code.
 
@@ -49,7 +49,7 @@ Guess what ? You can 😀 :
 
 You can declare local functions, having access to outer scope :
 
-@[Define a function checking if a number is even or not]({"stubs": ["src/chapter03/Chapter034.kt"], "command": "Chapter03Test#isEven"})
+@[Define a function checking if a number is even or not]({"stubs": ["src/isEven.kt"], "command": "Chapter03Test#isEven"})
 
 ## Extensions
 
@@ -58,7 +58,7 @@ You can declare local functions, having access to outer scope :
 It is possible to extend existing classes with new functionalities, even existing JVM classes.  
 We just need to prefix the function name with the receiver type, followed by `.`. The receiver will be accessible as `this` in the function.
 
-@[Create a function tail returning the tail of a given string]({"stubs": ["stub/empty.kt"], "command": "Chapter03Test#infix"})
+@[Create a function tail returning the tail of a given string]({"stubs": ["stub/empty.kt"], "command": "Chapter03Test#extension"})
 
 fun String.lastChar() =
         this.get(this.length - 1)
@@ -81,7 +81,7 @@ infix fun String.isEqual(value: String) = this == value
 
 Using `infix` keyword and `extension functions` we can use infix notation for some of our functions :
 
-@[Declare an infix function inc that can increment an Int]({"stubs": ["src/chapter03/Chapter035.kt"], "command": "Chapter03Test#inc"})
+@[Declare an infix function inc that can increment an Int]({"stubs": ["stub/empty.kt"], "command": "Chapter03Test#infix"})
 
 ## Vararg
 
