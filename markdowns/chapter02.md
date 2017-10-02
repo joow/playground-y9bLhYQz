@@ -31,7 +31,7 @@ d += 1     // What is the answer ?
 
 ## Exercice
 
-@[Fix the following code]({"stubs": ["src/chapter02/answer.kt"], "command": "Chapter02Test#answer"})
+@[Fix the following code]({"stubs": ["src/answer.kt"], "command": "Chapter02Test#answer"})
 
 ## Constants
 
