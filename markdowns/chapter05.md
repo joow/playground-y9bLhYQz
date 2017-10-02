@@ -6,7 +6,7 @@
 
 Kotlin can almost use any Java code without issue.
 
-@[Instanciate a new user and display its name]({"stubs": ["src/chapter05/Chapter051.kt", "src/chapter05/UserJava.java"], "command": "Chapter05Test#kotlin"})
+@[Instanciate a new user and display its name]({"stubs": ["src/kotlin.kt", "src/UserJava.java"], "command": "Chapter05Test#kotlin"})
 
 ## Java -> Kotlin
 
@@ -14,4 +14,4 @@ Kotlin can almost use any Java code without issue.
 
 Using Kotlin in Java is almost quite easy.
 
-@[Check if the password of the user is valid (at least 8 characters)]({"stubs": ["src/chapter05/Chapter052.kt", "test/Chapter05JavaTest.java"], "command": "Chapter05JavaTest#java"})
+@[Check if the password of the user is valid (at least 8 characters)]({"stubs": ["src/java.kt", "test/Chapter05JavaTest.java"], "command": "Chapter05JavaTest#java"})
