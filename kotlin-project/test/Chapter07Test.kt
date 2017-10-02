@@ -23,4 +23,13 @@ class Chapter07Test {
         assertThat(npe("Hello, Kotlin")).isEqualTo(13)
         assertThatThrownBy { npe(name) }.isInstanceOf(KotlinNullPointerException::class.java)
     }
+
+    @Test
+    fun smartcast() {
+        assertThat(smartadd("1", "2")).isEqualTo(3)
+        assertThat(smartadd(1, "2")).isEqualTo(3)
+        assertThat(smartadd("1", 2)).isEqualTo(3)
+        assertThat(smartadd(1, 2)).isEqualTo(3)
+        assertThatThrownBy { smartadd(3.0, true) }.isInstanceOf(IllegalArgumentException::class.java)
+    }
 }

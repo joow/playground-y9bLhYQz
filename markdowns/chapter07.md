@@ -40,3 +40,11 @@ Finally if really we want to raise a `NullPointerException` we can use the `!!` 
 *https://kotlinlang.org/docs/reference/null-safety.html#safe-casts*
 
 In Kotlin the keyword `as` is used to cast an object into a specific type. If the cast fail a `ClassCastException` is raised, `as?` can be used to return a `null` value if the cast failed.
+
+## Smart casts 
+
+*https://kotlinlang.org/docs/reference/typecasts.html*
+
+Using the operators `is` and `!is` we can check if an object is of a given type. What's really nice is that with smart casts the compiler infer the type of our object after these operators.
+
+@[Implement a function smartadd that can add String or Int and throw a IllegalArgumentException otherwise]({"stubs": ["src/smartcast.kt"], "command": "Chapter07Test#smartcast"})
