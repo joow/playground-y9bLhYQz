@@ -1,3 +1,3 @@
-val a: Nothing = TODO()
-val b: Nothing = TODO()
-val answer: Int = a + b
+val a: Int = TODO()
+val b: Int = TODO()
+val answer = a + b
