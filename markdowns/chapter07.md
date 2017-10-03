@@ -16,7 +16,7 @@ To do so the type must be explicitly marked as nullable with the `?` sign.
 Calling a function on a nullable value might raise a `NullPointerException`.  
 Thanksfully Kotlin has a safe call operator : `?`.
 
-@[Declare a nameLength variable holding the length of the name String]({"stubs": ["stub/empty.kt"], "command": "Chapter07Test#safeCall"})
+@[Declare a nameLength variable holding the length of the name String. What is its type ?]({"stubs": ["stub/empty.kt"], "command": "Chapter07Test#safeCall"})
 
 ## Elvis
 
