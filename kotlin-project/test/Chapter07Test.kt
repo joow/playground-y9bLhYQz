@@ -21,7 +21,7 @@ class Chapter07Test {
     @Test
     fun npe() {
         assertThat(npe("Hello, Kotlin")).isEqualTo(13)
-        assertThatThrownBy { npe(name) }.isInstanceOf(KotlinNullPointerException::class.java)
+        assertThatThrownBy { npe(null) }.isInstanceOf(KotlinNullPointerException::class.java)
     }
 
     @Test
