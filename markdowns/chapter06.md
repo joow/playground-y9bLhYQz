@@ -49,7 +49,7 @@ Using the magic `data` keyword we can transform a class in a data class having t
 
 `Pair` and `Triple` classes are data classes allowing to return a pair or a triple of elements.
 
-@[Add an identity function to the Person class return the first name and the last name as a pair]({"stubs": ["stub/empty.kt"], "command": "Chapter06Test#pair"})
+@[Add an identity function to the Person class return the first name and the last name as a pair]({"stubs": ["stub/person.kt"], "command": "Chapter06Test#pair"})
 
 ## Destructuring
 
@@ -73,4 +73,4 @@ There are two equality operators in Kotlin :
   1. `==` (and `!=`) as structural equality (or functional equality)
   2. `===` (and `!==`) as referential equality
 
-@[Define the structural equality for our Rectangle class]({"stubs": ["stub/empty.kt"], "command": "Chapter06Test#random"})
+@[Define the structural equality for our Rectangle class]({"stubs": ["stub/rectangle.kt"], "command": "Chapter06Test#random"})
