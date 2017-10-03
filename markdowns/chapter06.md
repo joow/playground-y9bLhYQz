@@ -16,9 +16,9 @@ class Empty
 
 Classes can have one primary constructor and multiple secondary constructors.
 
-@[Create a class Person with two properties : firstName and lastName]({"stubs": ["stub/empty.kt"], "command": "Chapter06Test#person"})
+@[Create a class Person with two properties : firstName and lastName]({"stubs": ["src/class.kt"], "command": "Chapter06Test#person"})
 
-@[Create a class Rectange and allow to create easily a square]({"stubs": ["stub/empty.kt"], "command": "Chapter06Test#square"})
+@[Create a class Rectange and allow to create easily a square]({"stubs": ["src/constructor.kt"], "command": "Chapter06Test#square"})
 
 ## Property
 
