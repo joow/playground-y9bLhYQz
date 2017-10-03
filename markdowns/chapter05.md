@@ -6,7 +6,7 @@
 
 Kotlin can almost use any Java code without issue.
 
-@[Instanciate a new user and display its name]({"stubs": ["src/kotlin.kt", "src/UserJava.java"], "command": "Chapter05Test#kotlin"})
+@[Instanciate a new user and display its email]({"stubs": ["src/kotlin.kt", "src/UserJava.java"], "command": "Chapter05Test#kotlin"})
 
 ## Java -> Kotlin
 
