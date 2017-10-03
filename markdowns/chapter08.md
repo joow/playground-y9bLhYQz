@@ -39,7 +39,7 @@ ints.filter { it > 0 }
 
 Since Kotlin 1.1 it is possible to destruture lambdas.
 
-@[Given a map of countries and their capital, create a function capital printing for each entry "The capital of ... is ..."]({"stubs": ["src/destructuring.kt"], "command": "Chapter08Test#capitals"})
+@[Given a map of countries and their capital, create a function capital printing for each entry "The capital of ... is ..."]({"stubs": ["src/destructuring.kt"], "command": "Chapter08Test#destructuring"})
 
 ## Collections
 
