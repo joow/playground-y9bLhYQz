@@ -1,0 +1,1 @@
+fun npe(s) = TODO()
