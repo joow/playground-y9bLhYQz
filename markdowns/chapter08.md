@@ -31,7 +31,7 @@ If the compiler can infer the signature you can leave out the signature :
 ints.filter { it > 0 }
 ```
 
-@[Declare a function negate that takes a predicate and returns its opposite]({"stubs": ["stub/empty.kt"], "command": "Chapter08Test#negate"})
+@[Declare a function negate that takes a predicate and returns its opposite]({"stubs": ["src/hof.kt"], "command": "Chapter08Test#negate"})
 
 ## Destructuring Lambdas
 
@@ -39,7 +39,7 @@ ints.filter { it > 0 }
 
 Since Kotlin 1.1 it is possible to destruture lambdas.
 
-@[Given a map of countries and their capital, create a function capital printing for each entry "The capital of ... is ..."]({"stubs": ["src/chapter08/chapter081.kt"], "command": "Chapter08Test#capitals"})
+@[Given a map of countries and their capital, create a function capital printing for each entry "The capital of ... is ..."]({"stubs": ["src/destructuring.kt"], "command": "Chapter08Test#capitals"})
 
 ## Collections
 
@@ -75,7 +75,7 @@ immutableMap.plus("4" to 4) // returns a new map
 
 ### Fun with data
 
-@[Print the birth countries of the musicians, without duplicate]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08TMusicianTest#birth"})
+@[Print the birth countries of the musicians, without duplicate]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08MusicianTest#birth"})
 
 @[Generate a string containing the last names of the musicians, sorted in ascending order and separated by a comma]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08MusicianTest#lastNames"})
 
