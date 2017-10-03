@@ -75,12 +75,12 @@ immutableMap.plus("4" to 4) // returns a new map
 
 ### Fun with data
 
-@[Print the birth countries of the musicians, without duplicate]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08MusicianTest#birth"})
+@[Print the birth countries of the musicians, without duplicate]({"stubs": ["src/musician.kt"], "command": "Chapter08MusicianTest#birth"})
 
-@[Generate a string containing the last names of the musicians, sorted in ascending order and separated by a comma]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08MusicianTest#lastNames"})
+@[Generate a string containing the last names of the musicians, sorted in ascending order and separated by a comma]({"stubs": ["src/musician.kt"], "command": "Chapter08MusicianTest#lastNames"})
 
-@[Count the number of musicians having their last name containing the letter B, no matter the case]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08MusicianTest#countB"})
+@[Count the number of musicians having their last name containing the letter B, no matter the case]({"stubs": ["src/musician.kt"], "command": "Chapter08MusicianTest#countB"})
 
-@[Print the list of death countries and the number of deceased musicians]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08MusicianTest#countD"})
+@[Print the list of death countries and the number of deceased musicians]({"stubs": ["src/musician.kt"], "command": "Chapter08MusicianTest#countD"})
 
-@[Print the musicians ordered by their death age. Who was the youngest and who was the oldest ?]({"stubs": ["src/chapter08/chapter082.kt"], "command": "Chapter08MusicianTest#age"})
+@[Print the musicians ordered by their death age. Who was the youngest and who was the oldest ?]({"stubs": ["src/musician.kt"], "command": "Chapter08MusicianTest#age"})
