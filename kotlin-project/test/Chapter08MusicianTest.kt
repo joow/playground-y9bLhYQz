@@ -16,26 +16,13 @@ class Chapter08MusicianTest {
     @Test fun birth() {
         main(emptyArray())
         assertThat(systemOutRule.log).isEqualToIgnoringWhitespace("""
-            |Haendel
-            |Brahms
-            |Chopin
-            |Mozart
-            |Dvořák
-            |Rossini
-            |Haydn
-            |Mendelssohn
-            |Tchaïkovski
-            |Liszt
-            |Salieri
-            |Schumann
-            |Schubert
-            |Debussy
-            |Wagner
-            |Van Beethoven
-            |Strauss
-            |Vivaldi
-            |Verdi
-            |Bach
+            |Allemagne
+            |Pologne
+            |République Tchèque
+            |Italie
+            |Autriche
+            |Russie
+            |France
             """.trimMargin())
     }
 
