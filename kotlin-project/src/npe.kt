@@ -1,1 +1,1 @@
-fun npe(s: String?): Unit = TODO()
+fun npe(s: String?): Int = TODO()
