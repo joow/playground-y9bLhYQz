@@ -73,4 +73,4 @@ There are two equality operators in Kotlin :
   1. `==` (and `!=`) as structural equality (or functional equality)
   2. `===` (and `!==`) as referential equality
 
-@[Define the structural equality for our Rectangle class]({"stubs": ["stub/rectangle.kt"], "command": "Chapter06Test#random"})
+@[Define the structural equality for our Rectangle class]({"stubs": ["stub/rectangle.kt"], "command": "Chapter06Test#equals"})
