@@ -1,7 +1,7 @@
-val name: String? = "should be null"
+val name: String? = TODO()
 
-val nameLength = name?.length
+val nameLength: Int? = TODO()
 
-val length = name?.length ?: 0
+val length: Int = TODO()
 
-fun npe(s: String?) = s!!.length
+fun npe(s: String?) = TODO()
