@@ -1,4 +1,4 @@
-val name: String? = null
+val name: String? = "should be null"
 
 val nameLength = name?.length
 
