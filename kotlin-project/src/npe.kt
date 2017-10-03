@@ -1,1 +1,1 @@
-fun npe(s) = TODO()
+fun npe(s: Unit): Unit = TODO()

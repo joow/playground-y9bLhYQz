@@ -1,1 +1,1 @@
-val name = TODO()
+val name: Unit = TODO()
