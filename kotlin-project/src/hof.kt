@@ -1,1 +1,1 @@
-fun <T> negate(f: (T) -> Boolean): Unit = TODO()
+fun <T> negate(f: (T) -> Boolean): (T) -> Boolean = TODO()
