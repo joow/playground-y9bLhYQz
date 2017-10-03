@@ -16,9 +16,9 @@ class Empty
 
 Classes can have one primary constructor and multiple secondary constructors.
 
-@[Create a class Person with two properties : firstName and lastName]({"stubs": ["src/class.kt"], "command": "Chapter06Test#person"})
+@[Create a class Person with two properties : firstName and lastName]({"stubs": ["stub/person.kt"], "command": "Chapter06Test#person"})
 
-@[Create a class Rectange and allow to create easily a square]({"stubs": ["src/constructor.kt"], "command": "Chapter06Test#square"})
+@[Create a class Rectange and allow to create easily a square]({"stubs": ["stub/rectangle.kt"], "command": "Chapter06Test#square"})
 
 ## Property
 
@@ -26,9 +26,9 @@ Classes can have one primary constructor and multiple secondary constructors.
 
 There is no such thing as a field in a Kotlin class. Instead classes may have properties.
 
-@[Add a computed property area to the Rectangle class ]({"stubs": ["stub/empty.kt"], "command": "Chapter06Test#area"})
+@[Add a computed property area to the Rectangle class ]({"stubs": ["stub/rectangle.kt"], "command": "Chapter06Test#area"})
 
-@[Create a RandomInt class that can return a new random Int and count the number of Ints generated]({"stubs": ["stub/empty.kt"], "command": "Chapter06Test#random"})
+@[Create a RandomInt class that can return a new random Int and count the number of Ints generated]({"stubs": ["stub/random.kt"], "command": "Chapter06Test#random"})
 
 ## Data classes
 
@@ -41,7 +41,7 @@ Using the magic `data` keyword we can transform a class in a data class having t
     - `componentN()` functions for each declared property
     - `copy()` function
 
-@[Transform the Person class in a data class and use it to copy a person, changing only his first name]({"stubs": ["stub/empty.kt"], "command": "Chapter06Test#data"})
+@[Transform the Person class in a data class and use it to copy a person, changing only his first name]({"stubs": ["stub/person.kt"], "command": "Chapter06Test#data"})
 
 ## Pair and Triple
 
