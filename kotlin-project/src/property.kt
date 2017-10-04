@@ -1,3 +1,4 @@
 import java.math.BigInteger
 
-val BigInteger.factorial : BigInteger = TODO()
+val BigInteger.factorial: BigInteger
+    get() = BigInteger.ZERO
