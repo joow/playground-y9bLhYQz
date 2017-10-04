@@ -58,7 +58,7 @@ You can declare local functions, having access to outer scope :
 It is possible to extend existing classes with new functionalities, even existing JVM classes.  
 We just need to prefix the function name with the receiver type, followed by `.`. The receiver will be accessible as `this` in the function.
 
-@[Create a function tail returning the tail of a given string]({"stubs": ["src/tail.kt"], "command": "Chapter03Test#extension"})
+@[Create a function tail returning the tail of a given string]({"stubs": ["stub/tail.kt"], "command": "Chapter03Test#extension"})
 
 ## Infix notation
 
@@ -66,7 +66,7 @@ We just need to prefix the function name with the receiver type, followed by `.`
 
 Using `infix` keyword and `extension functions` we can use infix notation for some of our functions :
 
-@[Declare an infix function inc that can increment an Int]({"stubs": ["src/infix.kt"], "command": "Chapter03Test#infix"})
+@[Declare an infix function inc that can increment an Int]({"stubs": ["stub/infix.kt"], "command": "Chapter03Test#infix"})
 
 ## Vararg
 

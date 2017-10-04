@@ -62,7 +62,7 @@ val (country, city) = Pair("France", "Bordeaux")
 val (_, city) = Pair("France", "Bordeaux")       // don't care about country
 ```
 
-@[Add a hello function taking a Person and returning Hello, <firstName> <lastName>, using destructuring]({"stubs": ["stub/empty.kt"], "command": "Chapter06Test#destructuring"})
+@[Add a hello function taking a Person and returning Hello, <firstName> <lastName>, using destructuring]({"stubs": ["stub/destructuring.kt"], "command": "Chapter06Test#destructuring"})
 
 ## Equality
 
