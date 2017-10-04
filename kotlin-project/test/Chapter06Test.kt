@@ -35,6 +35,12 @@ class Chapter06Test {
         assertThat(randomInt.counter).isEqualTo(3)
     }
 
+    @Test fun property() {
+        assertThat(BigInteger("1").factorial).isEqualTo(1)
+        assertThat(BigInteger("10").factorial).isEqualTo(3628800)
+        assertThat(BigInteger("20").factorial).isEqualTo(2432902008176640000)
+    }
+
     @Test
     fun data() {
         val person1 = Person("Benoît", "Giraudou")

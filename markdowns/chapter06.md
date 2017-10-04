@@ -30,6 +30,9 @@ There is no such thing as a field in a Kotlin class. Instead classes may have pr
 
 @[Create a RandomInt class that can return a new random Int and count the number of Ints generated]({"stubs": ["stub/random.kt"], "command": "Chapter06Test#random"})
 
+@[Add a factorial property to BigInteger type]({"stubs": ["src/property.kt"], "command": "Chapter06Test#property"})
+
+
 ## Data classes
 
 *https://kotlinlang.org/docs/reference/data-classes.html*
