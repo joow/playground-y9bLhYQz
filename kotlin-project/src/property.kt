@@ -1,1 +1,3 @@
-val BigInteger.factorial = TODO()
+import java.math.BigInteger
+
+val BigInteger.factorial : BigInteger = TODO()
