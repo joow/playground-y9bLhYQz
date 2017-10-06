@@ -40,6 +40,7 @@ class Chapter03Test {
     @Test
     fun infix() {
         assertThat(1 inc 1).isEqualTo(2)
+        assertThat(5 inc 5).isEqualTo(10)
     }
 
     @Test
