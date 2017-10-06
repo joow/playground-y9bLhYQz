@@ -78,11 +78,15 @@ As in Java we might need to pass a variable number of arguments. In this case we
 
 ## Operator Overloading
 
+*https://kotlinlang.org/docs/reference/operator-overloading.html*
+
 At last we can overload common operators using the `operator` keyword 😃 :
 
-@[Define a plus operator to add two Points  a function sum that can some an infinite number of Ints]({"stubs": ["src/operator.kt"], "command": "Chapter03Test#plus"})
+@[Define a plus operator to add two Points  a function sum that can add an infinite number of Ints]({"stubs": ["src/operator.kt"], "command": "Chapter03Test#plus"})
 
 ## Tail recursion
+
+*https://kotlinlang.org/docs/reference/functions.html#tail-recursive-functions*
 
 A tail recursive function can be marked as such with the `tailrec` keyword.
 
